@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+
+    <!-- Se precisar o boostrap sobrescreve os style abaico -->
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/png" href="../static/img/">
+    <!-- Boostrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>index</title>
+</head>
+
+<body>
+
+    <i class="bi bi-list menu-mobile"></i>
+
+    <!-- <h1>Perdão Jesus !!</h1> -->
+    <!-- Menu lateral -->
+    <aside id="header">
+        <section class="profile">
+            <img src="../static/img/fran.png" alt="Fofo do Francisco">
+            <h1>Francisco Costa</h1>
+
+            <div class="social-links mt-4 text-center">
+                <a target="_blank" href="">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a target="_blank" href="https://dev.to/franciscocosta4287">
+                    <i class="bi bi-windows"></i>
+                </a>
+
+                <a target="_blank" href="https://github.com/franciscocosta4287">
+                    <i class="bi bi-github"></i>
+                </a>
+
+                <a target="_blank" href="">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Nav Bar -->
+        <nav id="navbar" class="nav-menu">
+            <!--tag semantica-->>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"></i> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre"><i class="bi bi-person"></i> Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades"><i class="bi bi-list-check"></i> Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#curriculo"> <i class="bi bi-file-earmark"></i> Currículo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><i class="bi bi-collection"></i> Portfólio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato"><i class="bi bi-envelope"></i> Contatos</a>
+                </li>
+
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Conteudo -->
+    <main id="main">
+
+        <section id="inicio" class="row m-0 p-0">
+            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-white text-shadow">Francisco das Costa</h2>
+                <span id="subtitle" class="text-white text-shadow">Dev, Perito em rocket e amante de programação</span>
+            </div>
+
+            <div class="col-md-7 d-flex justify-content-end align-items-end">
+                <div id="arraste" class="d-flex align-items-center">
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                    <a href="#sobre">Arraste para mais</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container mt-5" id="sobre">
+            <div class="row w-100">
+                <div class="col-md-12" data-anime="down">
+                    <h2 class="pt-3">Sobre</h2>
+                    <p>
+                        O que é Lorem Ipsum?
+                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                        sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos
+                        e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco
+                        séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente
+                        inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo
+                        passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de
+                        editoração eletrônica como Aldus PageMaker.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <!--Tamano da imagem-->
+                    <!-- class="img-fluid" deixa a imagem do tammanho que vc deseja -->
+                    <!-- <img class="img-fluid" src="../static/img/fran.png" alt="Foto do Francisco"> -->
+                    <img class="img-fluid shadow" src="../static/img/fran.png" alt="Foto do Francisco"
+                        data-anime="left">
+                    <!--shadow -> fica sobreado-->
+                </div>
+                <div class="col-md-8" data-anime="right">
+                    <h3>Curso de Flask</h3>
+                    <p>
+                        Sou alto de data e Atualmente estudo flask utilizando banco de dados SQL, </p><br>
+                    <p>Trabalhando na C&M Software, com BPM Rocket
+                    </p>
+
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Niver: <span class="fw-lighter">
+                                        19 de novembro 1972
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter">
+                                        50 Anos
+                                    </span>
+                                </li>
+                                <li class="list-group-item">Cidade:
+                                    <span class="fw-lighter">
+                                        Osasco
+                                    </span>
+                                </li>
+                                <li class="list-group-item">Estado: <span class="fw-lighter">São Paulo</span></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">Hobby: <span class="fw-lighter">Mexer(Fuçar) em
+                                        computador</span></li>
+                                <li class="list-group-item">Site: <a href="https://sssss/" target="_blank"
+                                        class="fw-lighter text-decoration-none link-dark">links.this.code</a> </li>
+                                <li class="list-group-item">Trabalho: <a href="https://br.cmsw.com/" target="_blank"
+                                        class="fw-lighter text-decoration-none link-dark">C&M Software</a> </li>
+                                <li class="list-group-item">Experiência: <span class="fw-lighter">+ 10 Anos</span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p align="center">
+                        Alem disso tenho pequenos projetos
+                    </p>
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="mt-5 section-bg" id="habilidades">
+
+            <div class="container pb-5">
+
+                <h2 class="pt-5">Habilidades</h2>
+                <p>em tempo com o tem adquiri habilidades tecnicas e não tecnicas
+                    Python, SQL, Postgres, DB2, Git, Docker, Kubernetes
+                </p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                        <p class="mt-3 mb-0">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 50%;"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="mt-3 mb-0">JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 40%;"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 35%;"
+                                aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="mt-3 mb-0">GitHub</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 25%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Deploy</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 55%;"
+                                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Nestjs</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 45%;"
+                                aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                        </div>
+                        <p class="mt-3 mb-0">NodeJs</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 35%;"
+                                aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Flask</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Postgres</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 50%;"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Mysql</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                        <p class="mt-3 mb-0">PHP</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <hr class="w-50 me-auto ms-auto">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Trabalho em Equipe</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 95%;"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Proatividade</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 95%;"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Orientação a detalhes</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Comunicação</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 95%;"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Empatia</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 85%;"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Comprometimento</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" style="width: 100%;"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-5 cv" id="curriculo">
+
+
+            <div class="container pb-5">
+                <h2 class="pt-3 pb-4">Currículo</h2>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Educação</h3>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Bacharelado em Sistemas de Informação</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Faculdades Integradas Campos Salles</em></p>
+                            <p>Recebi conceitos e tecnicas de informatica e teoria de sistemas para contribuir na
+                                solucao de tratamento da informação nas organizações por meio da construcao de modelos
+                                de automação corporativa.</p>
+                        </div>
+                        <div class="cv-item" data-anime="up">
+                            <h4>Bacharelado em Sistemas de Informação</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Faculdades Integradas Campos Salles</em></p>
+                            <p>Recebi conceitos e tecnicas de informatica e teoria de sistemas para contribuir na
+                                solucao de tratamento da informação nas organizações por meio da construcao de modelos
+                                de automação corporativa.</p>
+                        </div>
+                        <div class="cv-item" data-anime="up">
+                            <h4>Bacharelado em Sistemas de Informação</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Faculdades Integradas Campos Salles</em></p>
+                            <p>Recebi conceitos e tecnicas de informatica e teoria de sistemas para contribuir na
+                                solucao de tratamento da informação nas organizações por meio da construcao de modelos
+                                de automação corporativa.</p>
+                        </div>
+                    </div>
+                    <div class="col md-6">
+                        <h3 class="cv-title">Profissional</h3>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Bacharelado em Sistemas de Informação</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Faculdades Integradas Campos Salles</em></p>
+                            <p>Recebi conceitos e tecnicas de informatica e teoria de sistemas para contribuir na
+                                solucao de tratamento da informação nas organizações por meio da construcao de modelos
+                                de automação corporativa.</p>
+                        </div>
+                        <div class="cv-item" data-anime="up">
+                            <h4>Bacharelado em Sistemas de Informação</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Faculdades Integradas Campos Salles</em></p>
+                            <p>Recebi conceitos e tecnicas de informatica e teoria de sistemas para contribuir na
+                                solucao de tratamento da informação nas organizações por meio da construcao de modelos
+                                de automação corporativa.</p>
+                        </div>
+                        <div class="cv-item" data-anime="up">
+                            <h4>Bacharelado em Sistemas de Informação</h4>
+                            <h5>2017 - 2021</h5>
+                            <p><em>Faculdades Integradas Campos Salles</em></p>
+                            <p>Recebi conceitos e tecnicas de informatica e teoria de sistemas para contribuir na
+                                solucao de tratamento da informação nas organizações por meio da construcao de modelos
+                                de automação corporativa.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <div class="section-bg mt-5" id="portfolio">
+            <div class="container pd-5 pt-5" data-anime="left">
+                <!--anime-->>
+                <h2 class="pb-4">Portfólio</h2>
+
+                <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <!-- <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/fran.png" class="card-img-top" alt="foto do Francsico">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Apendendo</h5>
+                                            <p class="card-text">Boostrap, css javaScript, html.</p>
+
+                                            <div class="d-flx justify-content-center">
+                                                <a href="#" target="_blank" class="btn btn-outline-primary"> <i
+                                                        class="bi bi-link-45deg"></i> </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/fran.png" class="card-img-top" alt="foto do Francsico">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Apendendo</h5>
+                                            <p class="card-text">Boostrap, css javaScript, html.</p>
+                                            <div class="d-flx justify-content-center">
+                                                <a href="#" target="_blank" class="btn btn-outline-primary"> <i
+                                                        class="bi bi-link-45deg"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/fran.png" class="card-img-top" alt="foto do Francsico">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Apendendo</h5>
+                                            <p class="card-text">Boostrap, css javaScript, html.</p>
+                                            <div class="d-flx justify-content-center">
+                                                <a href="#" target="_blank" class="btn btn-outline-primary"> <i
+                                                        class="bi bi-link-45deg"></i> </a>
+                                                <a href="#" target="_blank" class="btn btn-outline-dark me-3"> <i
+                                                        class="bi bi-github"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col">
+                              <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                            </div> -->
+                            </div>
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/fran.png" class="card-img-top" alt="foto do Francsico">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Apendendo</h5>
+                                            <p class="card-text">Boostrap, css javaScript, html.</p>
+
+                                            <div class="d-flx justify-content-center">
+                                                <a href="#" target="_blank" class="btn btn-outline-primary"> <i
+                                                        class="bi bi-link-45deg"></i> </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/fran.png" class="card-img-top" alt="foto do Francsico">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Apendendo</h5>
+                                            <p class="card-text">Boostrap, css javaScript, html.</p>
+                                            <div class="d-flx justify-content-center">
+                                                <a href="#" target="_blank" class="btn btn-outline-primary"> <i
+                                                        class="bi bi-link-45deg"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/fran.png" class="card-img-top" alt="foto do Francsico">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Apendendo</h5>
+                                            <p class="card-text">Boostrap, css javaScript, html.</p>
+                                            <div class="d-flx justify-content-center">
+                                                <a href="#" target="_blank" class="btn btn-outline-primary"> <i
+                                                        class="bi bi-link-45deg"></i> </a>
+                                                <a href="#" target="_blank" class="btn btn-outline-dark me-3"> <i
+                                                        class="bi bi-github"></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col">
+                              <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                              </div>
+                            </div> -->
+                            </div>
+
+                        </div>
+                        <!-- <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div> -->
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="pt-5 pb-5" id="contato">
+            <div class="container mb-5">
+                <h2 class="pt-3 pb-3">Contato</h2>
+
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0" data-anime="up">
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i>Localização</h4>
+                                <p>Osasco - SP</p>
+                            </div>
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i>Email</h4>
+                                <p>francisco.costa4287@gmail.com</p>
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.6901830983297!2d-46.781332084399466!3d-23.50766626549803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefef181e5070d%3A0x9f1ab76a4d3e62be!2sR.%20Raimundo%20Borges%20de%20Almeida%20-%20Rochdale%2C%20Osasco%20-%20SP%2C%2006226-080!5e0!3m2!1spt-BR!2sbr!4v1650597822537!5m2!1spt-BR!2sbr"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card p-5 h-100 shadow border-0" data-anime="left">
+                            <!--Anime-->
+
+                            <form class="row g-3" action="/send" method="POST">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label">Nome:</label>
+                                    <input type="text" class="form-control" id="nome" name="nome"
+                                        placeholder="Digite o seu nome" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Digite o seu email" required>
+                                </div>
+
+
+                                <div class="col-12 ">
+                                    <label for="mensagem" class="form-label">Mensagem: </label>
+
+                                    <textarea type="text" class="form-control" id="mensagem" name="mensagem" rows="10"
+                                        placeholder="Digite a sua mensagem" required></textarea>
+                                </div>
+                                <!--
+                                <div class="col-md-6">
+                                  <label for="inputCity" class="form-label">City</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="inputState" class="form-label">State</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                                </div> -->
+
+                                <div class="col-12 d-flex justify-content-center mt-4">
+                                    <button id="btn-enviar" type="submit" class="btn btn-outline-primary">Enviar
+                                        Mensagem</button>
+
+                                    <!-- Loading -->
+                                    <button id="btn-enviar-loader" class="btn btn-primary" type="button" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status"
+                                            aria-hidden="true"></span>
+                                        Loading...
+                                    </button>
+                                </div>
+
+
+
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+
+        {% for message in messages %}
+        <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="bi bi-check-circle-fill"></i><li>{{ message }}</li>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+
+          {% endfor %}
+
+          {% endif %}
+          {% endwith %}
+  
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="text-center">
+                &copy; Copyright <strong>Portfolio</strong>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Boostrap -->
+    <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Se precisar o boostrap sobrescreve os style abaico -->
+    <script src="../static/script.js"></script>
+</body>
+
+</html>
